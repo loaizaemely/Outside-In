@@ -36,6 +36,10 @@
     font-family: 'Open Sans';
 }
 
+.mvt_contenedores{
+    margin-left: 80px;
+}
+
 /*VARIABLES ----------------------------------------*/
 :root{
     --bordes_blue: #00A6FF;
@@ -45,16 +49,12 @@
 
 .nav_menu{
     position: absolute;
-    /* top: 0;
-    bottom: 0; */
     height: 100%;
-    /* left: 0; */
     background-color: #D8D3FA;
     border: 3px solid #7494DE;
     width: 90px;
     overflow: hidden;
     transition: width 0.2s linear;
-    /* box-shadow: 0 20px 35px rgba(0, 0, 0, 0); */
 }
 
 .nav_menu:hover{
@@ -66,7 +66,7 @@
 .nav_menu a{
     position: relative;
     color: #000000;
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Belanosima';
     display: flex;
     align-items: center;
@@ -151,6 +151,6 @@
     font-family: 'Belanosima';
 }
 
-.mvt_contenedores{
-    margin-left: 100px;
+#usuario_menu{
+    font-size: 18px;
 }

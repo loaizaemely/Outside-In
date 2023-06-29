@@ -5,12 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1..0">
     <title>Pagina principal</title>
-
-    <link rel="stylesheet" href="../assets/CSS/PGS-inicio/esqueletos.css">
+    <link rel="stylesheet" href="../assets/CSS/PGS_inicio-css/esqueletos.css">
     <link rel="icon" href="../assets/md/img/logito.png">
 </head>
 <body>
-    <aside>
+    <aside>    <!-- MENÚ LATERAL -->
         <nav class="nav_menu">
             <ul>
                 <li><a href="#" class="logo_menu"><img src="../assets/md/img/logo.png" alt="ERROR"><span class="nav-item">OUTSIDE <br> IN</span></a></li>
@@ -23,31 +22,26 @@
             </ul>
         </nav>
     </aside>
-    <header class="contenedor_header">
+    <header class="contenedor_header"><!-- MENÚ SUPERIOR -->
         <div class="titulo_header"><h2>INICIO</h2></div>
         <div class="icons_header">
-            <a href="#"><img src="../assets/md/icons/ayuda.svg" alt="AYUDAS" title="¿CÓMO USO ESTA PÁGINA?"></a>
+            <a href="../op_menu/ayudas.html"><img src="../assets/md/icons/ayuda.svg" alt="AYUDAS" title="¿CÓMO USO ESTA PÁGINA?"></a>
             <a href="#"><img src="../assets/md/icons/notas.svg" alt="NOTAS" title="TUS NOTAS"></a>
-            <a href="#"><img src="../assets/md/icons/sugerencias.svg" alt="SUGERENCIAS" title="ENVIA SUGERENCIAS"></a>
+            <a href="../op_menu/comentarios.html"><img src="../assets/md/icons/sugerencias.svg" alt="SUGERENCIAS" title="ENVIA SUGERENCIAS"></a>
         </div>
         <div class="header_usuario">
-            <a href="#"><p>Usuario</p></a>
+            <a href="../op_menu/usuario.html"><p id="usuario_menu">Usuario</p></a>
             <img src="../assets/md/img/usuario.png" alt="FOTO" id="header_foto-usuario">
         </div>
     </header>
     
     <main class="contenedor_eqts mvt_contenedores">
         <section class="esqueleto_general estilo_eqts">
-            <div class="eqt_general-img">
-                <img src="../assets/md/img/esqueleto/esqueleto-general.png" alt="ESUELETO GENERAL">
-            </div>
-            
+            <div class="eqt_general-img"><img src="../assets/md/img/esqueleto/esqueleto-general.png" alt="ESUELETO GENERAL"></div>
             <div class="eqt_general-info">
                 <h2>ESQULETO HUMANO</h2>
-                <p>
-                    El esqueleto de un humano adulto está compuesto por 206 huesos y compone un 15% del peso corporal (el de un recién nacido puede tener hasta 100 más)...
-                </p>
-                <a href="#"> <button>Leer más</button></a>
+                <p>El esqueleto de un humano adulto está compuesto por 206 huesos y compone un 15% del peso corporal (el de un recién nacido puede tener hasta 100 más)...</p>
+                <a href="../eqt-general/eqt-humano.html"><button>Leer más</button></a>
             </div>
         </section>
 
@@ -56,24 +50,16 @@
                 <img src="../assets/md/img/esqueleto/eqt_axial.png" alt="ESQULETO AXIAL" title="ESQULETO AXIAL" id="img_eqts-axial">
                 <div class="eqt_Axial-info">
                     <h2>Esqueleto axial</h2>
-                    <p>
-                        El esqueleto axial incluye los huesos que forman la estructura <br> ósea de la cabeza, el esqueleto laríngeo, la columna vertebral y la caja torácica. Este protege los organos internos. <br> <br>
-                    </p>
-                    <p>
-                        <img src="../assets/md/icons/lista.svg" alt="ERROR"> 80 huesos
-                    </p>
+                    <p id="divisiones_texto">El esqueleto axial incluye los huesos que forman la estructura ósea de la cabeza, el esqueleto laríngeo, la columna vertebral y la caja torácica. Este protege los organos internos. <br> <br></p>
+                    <p><img src="../assets/md/icons/lista.svg" alt="ERROR"> 80 huesos</p>
                 </div>
             </article>
 
             <article class="eqt_apendicular estilo_eqts">
                 <div class="eqt_Apendicular-info">
                     <h2>Esqueleto apendicular</h2>
-                    <p>
-                        El esqueleto apendicular permite el movimiento. <br> Sus partes principales son los brazos, las partes de los hombros y las piernas que están conectadas al cuerpo por la pelvis. <br> <br>
-                    </p>
-                    <p>
-                        <img src="../assets/md/icons/lista.svg" alt="ERROR"> 126 huesos
-                    </p>
+                    <p id="divisiones_texto">El esqueleto apendicular permite el movimiento. Sus partes principales son los brazos, las partes de los hombros y las piernas que están conectadas al cuerpo por la pelvis. <br> <br></p>
+                    <p><img src="../assets/md/icons/lista.svg" alt="ERROR"> 126 huesos</p>
                 </div>
                 <img src="../assets/md/img/esqueleto/eqt_apendicular.png" alt="ESQULETO APENDICULAR" title="ESQULETO APENDICULAR" id="img_eqts-apendicular">
             </article>

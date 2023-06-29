@@ -7,7 +7,7 @@
     border: 2px solid var(--bordes_blue);
     border-radius: 15px;
     padding: 20px;
-    margin: 20px 30px 0px 30px;
+    margin: 10px 10px 0px 30px;
     text-align: center;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .eqt_general-img img{
-    width: 450px;
+    width: 460px;
 }
 
 .eqt_general-info{
@@ -45,7 +45,7 @@
     border: 2px solid var(--bordes_blue);
     background-color: #fff;
     border-radius: 13px;
-    padding: 10px 30px;
+    padding: 10px 40px;
     margin: 30px 3px 0px 0px;
     cursor: pointer;
 }
@@ -53,12 +53,15 @@
 /* ESTILOS DIVISIONES ESQUELETO ----------------------------------------*/
 .eqt_divisiones{
     display: flex;
-    /* margin: 0px 20px 0px 20px; */
+    justify-content: center;
 }
 
+#divisiones_texto{
+    font-size: 20px;
+}
 /* ESQUELETO AXIAL */
 .eqt_axial #img_eqts-axial{
-    width: 90px;
+    width: 95px;
 }
 
 /* ESQUELETO APENDICULAR */

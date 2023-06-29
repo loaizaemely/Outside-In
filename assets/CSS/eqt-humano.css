@@ -1,0 +1,63 @@
+@import url(./styles.css);
+
+/* ESTILOS GENERALES ------------------------------------------------------- */
+.contenedor_eqt-hm{
+    display: flex;
+    justify-content: center;
+}
+
+.cuadros_eqt-hm{
+    width: 40%;
+}
+
+.cuadros_eqt-hm a{
+    text-decoration: none;
+}
+
+.cajas_eqt-hm{
+    border: 2px solid var(--bordes_blue);
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px 5px;
+    margin: 15px 50px 0px 0px;
+    color: #000;
+    cursor: pointer;
+}
+
+.cajas_eqt-hm h3{
+    font-family: 'Kanit';
+    margin-bottom: 10px;
+}
+
+.caja_selecionada-eqt-hm{
+    box-shadow: 13px 7px 5px 0px rgba(194,226,244,1);
+}
+
+/* ESTILOS INFO DE LAS CAJAS */
+.info_eqt-hm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid var(--bordes_blue);
+    border-radius: 15px;
+    margin: 10px 10px 0px 10px;
+    width: 50%;
+}
+
+.info_eqt-hm p{
+    margin: 0px 10px -10px 20px;
+}
+
+.img_cajas-eqt-hm{
+    background-color: #c9e9faad;
+    border-radius: 13px;
+    border: 2px solid var(--bordes_blue);
+    text-align: center;
+    width: 450px;
+    margin: 10px 0px 10px 0px;
+}
+
+.img_cajas-eqt-hm img{
+    width: 410px
+}
+
