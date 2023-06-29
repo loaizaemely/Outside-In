@@ -1,0 +1,156 @@
+/*FUENTES ----------------------------------------*/
+@font-face {
+    font-family: Chewy;
+    src: url(../font/Chewy-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Open Sans';
+    src: url(../font/OpenSans_Condensed-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Belanosima';
+    src: url(../font/Belanosima-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Kanit';
+    src: url(../font/Kanit-Medium.ttf);
+}
+
+/*ESTILOS GENERALES ----------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+*::selection{
+    background-color: #49aec4;
+    color: #fffbfb;
+}
+ 
+* p{
+    font-family: 'Open Sans';
+}
+
+/*VARIABLES ----------------------------------------*/
+:root{
+    --bordes_blue: #00A6FF;
+}
+
+/*MENÚ LATERAL ----------------------------------------*/
+
+.nav_menu{
+    position: absolute;
+    /* top: 0;
+    bottom: 0; */
+    height: 100%;
+    /* left: 0; */
+    background-color: #D8D3FA;
+    border: 3px solid #7494DE;
+    width: 90px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    /* box-shadow: 0 20px 35px rgba(0, 0, 0, 0); */
+}
+
+.nav_menu:hover{
+    width: 270px;
+    transition: all 0.5s ease;
+}
+
+
+.nav_menu a{
+    position: relative;
+    color: #000000;
+    font-size: 18px;
+    font-family: 'Belanosima';
+    display: flex;
+    align-items: center;
+    width: 300px;
+    padding: 15px 5px;
+    text-decoration: none;
+}
+
+.nav_menu a:hover{
+    color: #6269ca;
+    border-radius: 20px;
+}
+
+
+.logo_menu{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    transition: all 0.5s ease;
+    margin: 10px 0 0 10px;
+}
+
+.logo_menu img{
+    width: 40px;
+}
+
+.logo_menu span{
+    padding-left: 25px;
+    font-family: Chewy;
+    font-size: 30px;
+}
+
+
+.icon_menu{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    text-align: center;
+}
+
+.nav-item{
+    position: relative;
+    margin-left: 10px;
+}
+
+/*MENÚ SUPERIOR ----------------------------------------*/
+.contenedor_header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    border: 2px solid var(--bordes_blue);
+}
+
+/* TITULO PG */
+.titulo_header h2{
+    font-family: Chewy;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+/* ICONOS */
+
+.icons_header img{
+    width: 35px;
+    margin: 0 10px 0 30px ;
+}
+
+#header_foto-usuario {
+    width: 50px;
+}
+
+/* USUARIO */
+.header_usuario{
+    display: inherit;
+    align-items: center;
+    flex-direction: row;
+}
+
+.header_usuario p{
+    font-family: 'Belanosima';
+}
+
+.mvt_contenedores{
+    margin-left: 100px;
+}

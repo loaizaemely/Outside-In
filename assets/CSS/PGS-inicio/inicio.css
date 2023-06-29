@@ -1,0 +1,68 @@
+@import url(../styles.css);
+
+.body_inicio{
+    background-image: linear-gradient(to bottom, #5ECDDC 0%,#5ECDDC 50%, #D6F1FC 50%,#D6F1FC 100% );
+    min-height: 100vh;
+    position: relative;
+}
+/* ESTILOS CAJA CENTRO  ----------------------------------------------- */
+
+.caja_inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 3px solid #002C6C;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.caja_inicio h2{
+    font-family: Chewy;
+    margin-bottom: 20px;
+    margin-top: -30px;
+}
+
+.caja_inicio p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.caja_inicio input{
+    display: block;
+    border-radius: 10px;
+    border: 2px solid var(--bordes_blue);
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.caja_inicio a{
+    margin: 30px;
+    color: #000;
+}
+
+.forms_inicio{
+    text-align: center;
+}
+
+.inicio-btn{
+    background-color: #1097A2 ;
+    border-radius: 10px;
+    border:none;
+    color: #fff;
+    padding: 20px 90px;
+    cursor: pointer;
+}
+
+#icon-inicio{
+    display: inline-block;
+    position: relative;
+    left: -45%;
+    top: -20px;
+}

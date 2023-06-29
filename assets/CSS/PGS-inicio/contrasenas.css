@@ -1,0 +1,78 @@
+@import url(../styles.css);
+
+.body_contrasenas{
+    background-color: #E4F0FF;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* ESTILOS CAJA CENTRO  ----------------------------------------------- */
+.caja_contra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 3px solid #002C6C;
+    box-shadow: 13px 6px 0px 3px rgba(177,185,255,1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.caja_contra h2{
+    font-family: Chewy;
+    margin: 30px;
+}
+
+.caja_contra p{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form_contra{
+    text-align: center;
+}
+
+.caja_contra input{
+    display: block;
+    border-radius: 10px;
+    border: 2px solid var(--bordes_blue);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+#btn_contra{
+    background-color: #1097A2 ;
+    border-radius: 18px;
+    border:none;
+    color: #fff;
+    padding: 20px 90px;
+    margin: 40px;
+    cursor: pointer;
+}
+
+/* ESTILOS CONTRASEÑA 3  ----------------------------------------------- */
+.caja_contra{
+    width: 50%;
+}
+
+.flex_contra3{
+    display: flex;
+}
+
+.flex_contra3 img{
+    width: 280px;
+}
+
+.form_contra3{
+    margin-top: 30px;
+}
+
+.form_contra3 input{
+    margin-bottom: 20px ;
+}

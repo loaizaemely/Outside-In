@@ -1,0 +1,97 @@
+@import url(../styles.css);
+
+.body_index{
+    background-image: linear-gradient(to bottom, #5ECDDC 0%,#5ECDDC 50%, #D6F1FC 50%,#D6F1FC 100% );
+    min-height: 100vh;
+    position: relative;
+}
+
+/*ESTILOS SECTION CUADROS ----------------------------------------*/
+.index_cuadrado{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 3px solid #002C6C;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    
+}
+
+.index-btn{
+    background-color: #1097A2 ;
+    border-radius: 10px;
+    border:none;
+    color: #fff;
+    padding: 20px 60px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+/*ESTILOS PARTE IZQUIERDA ----------------------------------------*/
+.index-Izquierda{
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+
+.index-Izquierda p{
+    font-size: 18px;
+}
+
+.form-index{
+    margin: 20px;
+}
+
+.form-index input{
+    display: block;
+    border-radius: 10px;
+    border: 2px solid var(--bordes_blue);
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+#titulo-izquierda{
+    font-family: Chewy;
+    margin: 20px;
+}
+
+/*ESTILOS PARTE DERECHA ----------------------------------------*/
+.index-Derecha{
+    display: inherit;
+    flex-direction: column;
+    width: 50%;
+    border-left: 2px solid #04babd;
+    align-items: center;
+}
+
+.index-Derecha p{
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 18px;
+}
+
+.index_logo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.index_logo h1{
+    font-family: Chewy;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+.index_logo img{
+    width: 60px;
+}

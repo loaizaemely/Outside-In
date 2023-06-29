@@ -1,0 +1,68 @@
+@import url(../styles.css);
+
+.estilo_eqts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--bordes_blue);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 30px 0px 30px;
+    text-align: center;
+}
+
+.contenedor_eqts h2{
+    font-family: 'Kanit';
+    margin-bottom: 35px;
+}
+/* ESTILOS ESQUELETO GENERAL ----------------------------------------*/
+
+.eqt_general-img{
+    flex-grow: 3;
+}
+
+.eqt_general-img img{
+    width: 450px;
+}
+
+.eqt_general-info{
+    flex-grow: 5;
+}
+
+
+.eqt_general-info p{
+    font-size: 20px;
+}
+
+.eqt_general-info a{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-decoration: none;
+}
+
+.eqt_general-info button{
+    border: 2px solid var(--bordes_blue);
+    background-color: #fff;
+    border-radius: 13px;
+    padding: 10px 30px;
+    margin: 30px 3px 0px 0px;
+    cursor: pointer;
+}
+
+/* ESTILOS DIVISIONES ESQUELETO ----------------------------------------*/
+.eqt_divisiones{
+    display: flex;
+    /* margin: 0px 20px 0px 20px; */
+}
+
+/* ESQUELETO AXIAL */
+.eqt_axial #img_eqts-axial{
+    width: 90px;
+}
+
+/* ESQUELETO APENDICULAR */
+
+.eqt_apendicular #img_eqts-apendicular{
+    width: 130px;
+}
