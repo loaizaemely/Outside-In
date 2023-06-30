@@ -1,0 +1,6 @@
+@import url(../styles.css);
+
+/* ESTILOS GENERALES ------------------------------------------------------- */
+.contenedor_eqt-hm{
+    display: flex;
+}

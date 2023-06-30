@@ -154,3 +154,30 @@
 #usuario_menu{
     font-size: 18px;
 }
+
+/* ESTILOS ACORDEONES ------------------------------------------------------- */
+.acordeones_eqt-hm details{
+    margin: 10px;
+}
+
+.acordeon{
+    margin: 10px;
+    width: 95%;
+    text-align: center;
+}
+
+
+.acordeon summary{
+    border: 2px solid var(--bordes_blue);
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Kanit';
+    cursor: pointer;
+}
+
+.acordeon p{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid var(--bordes_blue);
+    
+}

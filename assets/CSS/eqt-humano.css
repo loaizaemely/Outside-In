@@ -30,7 +30,7 @@
 }
 
 .caja_selecionada-eqt-hm{
-    box-shadow: 13px 7px 5px 0px rgba(194,226,244,1);
+    box-shadow: 13px 7px 5px 0px rgb(135, 211, 255);
 }
 
 /* ESTILOS INFO DE LAS CAJAS */
@@ -45,19 +45,118 @@
 }
 
 .info_eqt-hm p{
-    margin: 0px 10px -10px 20px;
+    margin: 0px 10px 0px 20px;
+    font-size: 18px;
 }
 
-.img_cajas-eqt-hm{
-    background-color: #c9e9faad;
+.img_info-eqt-hm{
+    background-color: #def4ffad;
     border-radius: 13px;
     border: 2px solid var(--bordes_blue);
     text-align: center;
-    width: 450px;
+    width: 430px;
     margin: 10px 0px 10px 0px;
 }
 
-.img_cajas-eqt-hm img{
-    width: 410px
+/* ESTILOS FUNCIONES ------------------------------------------------------- */
+.info-funciones1_eqt-hm , .info-funciones2_eqt-hm{
+    display: flex;
+    align-items: center;
 }
 
+.img_fun-eqt-hm{
+    width: 180px;
+    margin: 5px 20px 3px 20px;
+}
+
+.info-funciones3_eqt-hm{
+    text-align: center;
+}
+
+.img_fun3-eqt-hm{
+    text-align: center;
+    width: 210px;
+}
+
+/* ESTILOS CLASIFICACIÓN ------------------------------------------------------- */
+.clasi_info h2{
+    font-family: 'Kanit';
+    margin: 10px;
+}
+
+.clasi_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+}
+
+/* ESTILOS ESTRUCTURA ------------------------------------------------------- */
+.estruc_info_eqt-hm{
+    max-height: 90vh;
+    overflow: auto;
+}
+
+.estruc_info_eqt-hm::-webkit-scrollbar{
+    width: 7px;
+}
+
+.estruc_info_eqt-hm::-webkit-scrollbar-thumb{
+    background-color: var(--bordes_blue);
+    border-radius: 25px;
+}
+
+#span_flex-clasi{
+    display: flex;
+    justify-content: center;
+}
+
+.estructura1-eqt-hm{
+    height: 220px;
+}
+
+.flex_info-estruc-eqt-hm{
+    display: flex;
+    margin-top: 20px;
+}
+
+.estructura2-eqt-hm{
+    width: 150px;
+}
+
+/* ESTILOS PARTES ------------------------------------------------------- */
+.partes_info_eqt-hm p{
+    margin: 20px;
+    font-size: 23px;
+    text-align: center;
+}
+
+.flex_partes-eqt-hm{
+    display: flex;
+    justify-content: center;
+}
+
+.flex_partes-eqt-hm div{
+    background-color: #b7deff5e;
+    border: 4px solid var(--bordes_blue);
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px 10px 0px 10px;
+}
+
+.flex_partes-eqt-hm p{
+    font-size: 20px;
+}
+
+.flex_partes-eqt-hm h3{
+    font-family: 'Kanit';
+}
+
+#partes_eqt_axial{
+    padding-top: 20px;
+    width: 100px;
+}
+
+#partes_eqt_apendicular{
+    width: 130px;
+}
