@@ -99,11 +99,13 @@
 
 .estruc_info_eqt-hm::-webkit-scrollbar{
     width: 7px;
+    
 }
 
 .estruc_info_eqt-hm::-webkit-scrollbar-thumb{
     background-color: var(--bordes_blue);
     border-radius: 25px;
+    padding-right: 20px;
 }
 
 #span_flex-clasi{

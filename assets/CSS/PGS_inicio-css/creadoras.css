@@ -37,7 +37,7 @@
     background-color: #d2edffad;
     border-radius: 15px;
     border: 3px solid var(--bordes_blue);
-    margin: 30px;
+    margin: 10px;
     padding: 40px;
     text-align: center;
     font-family: 'Open Sans';
@@ -48,7 +48,7 @@
 .creadoras img{
     width: 200px;
     border-radius: 23px;
-    margin: 20px;
+    margin: 10px;
 }
 
 /* ESTILOS FOOTER  ------------------------------------------------- */
@@ -61,7 +61,18 @@
     text-decoration: none;
     font-family: Chewy;
     font-size: 22px;
-    padding: 10px 50px ;
-    margin: 20px;
+    padding: 5px 50px ;
+    margin: 10px 40px;
     cursor: pointer;
+}
+
+/* ESTILOS CREADORAS 2  ------------------------------------------------- */
+#contacto_crds2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contacto_crds2 img{
+    width: 30px;
 }

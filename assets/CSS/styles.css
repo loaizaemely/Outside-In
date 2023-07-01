@@ -181,3 +181,50 @@
     border: 2px solid var(--bordes_blue);
     
 }
+
+/* ESTILOS MODALES ------------------------------------------------------- */
+.dialogs_modales{
+    position: relative;
+}
+
+.modal{
+    text-align: center;
+    padding: 20px;
+    border: 2px solid var(--bordes_blue);
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.modal::backdrop{
+    background-color: #0000006e;
+}
+
+.modal::-webkit-scrollbar{
+    width: 7px;
+    
+}
+
+.modal::-webkit-scrollbar-thumb{
+    background-color: var(--bordes_blue);
+    border-radius: 45px;
+    padding-right: 20px;
+}
+
+.modal h2{
+    font-family: Chewy;
+    font-size: 32px;
+    margin: -30px 0px 30px 0px;
+}
+
+.cont_cerrar-modal{
+    text-align: end;
+}
+
+.cerar_modal-x{
+    text-align: end;
+    width: 40px;
+    cursor: pointer;
+}

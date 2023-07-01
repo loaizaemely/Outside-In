@@ -1,0 +1,41 @@
+@import url(../styles.css);
+
+.contenedor-perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-perfil h2{
+    font-family: Chewy;
+    font-size: 30px;
+    margin: 30px 0px 20px 0px;
+    border-bottom: 4px solid #bf9afcf6;
+}
+
+.contenedor-perfil img{
+    width: 100px;
+}
+
+/* ESTILOS DATOS USUARIO --------------------------- */
+.datos_usuario{
+    text-align: center;
+}
+
+#dato_perfil{
+    border: 3px solid var(--bordes_blue);
+    border-radius: 13px;
+    width: 400px;
+    padding: 10px;
+    margin: 20px;
+}
+
+#cerrar_perfil{
+    text-decoration: none;
+    font-family: Chewy;
+    color: #000;
+    background-color: #92F2D0;
+    border-radius: 10px;
+    padding: 10px 30px;
+}

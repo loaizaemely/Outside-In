@@ -1,0 +1,61 @@
+@import url(../styles.css);
+
+.contenedor_comentarios h2{
+    text-align: center;
+    font-family: Chewy;
+    color: #560074;
+    margin-top: 50px;
+}
+
+/* ESTILOS SECTION PARA ENIAR COMENTARIO ----------------------- */
+.flex_cmts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 20px 0px 20px;
+}
+
+.enviar_coment{
+    width: 60%;
+    text-align: center;
+}
+
+.enviar_coment textarea{
+    display: block;
+    resize: none;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #d3edf2a4;
+    border-radius: 20px;
+    border: 2px solid var(--bordes_blue);
+}
+
+.enviar_coment form{
+    margin: 20px 0px 20px 40px;
+}
+
+.enviar_coment button{
+    background-color: #B4DBFD;
+    border-radius: 10px;
+    border: 2px solid var(--bordes_blue);
+    font-family: Chewy;
+    font-size: 20px;
+    padding: 10px 100px;
+    cursor: pointer;
+}
+
+/* info */
+.info_cmts{
+    width: 40%;
+    text-align: center;
+}
+
+.info_cmts img{
+    width: 160px;
+}
+
+.info_cmts p{
+    border: 2px solid var(--bordes_blue);
+    border-radius: 10px;
+    padding: 20px;
+}

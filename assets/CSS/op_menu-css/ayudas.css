@@ -1,0 +1,93 @@
+@import url(../styles.css);
+/*ESTILOS INFORMACION SOPORTE ----------------------------------------*/
+.contenedor_info-ayudas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img_Ayudas{
+    width: 200px;
+    margin: 20px 0px 0px 60px;
+}
+
+.info_ayudas{
+    border: 2px solid var(--bordes_blue);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0px 20px 0px 80px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#flex_ayudas{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* MODALES ------------------------------------------------ */
+.cruadros_flex-md-ayuda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.cruadros_flex-md-ayuda p{
+    background-color: #E9EEFA;
+    border: 2px solid #112A4D;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 30px 90px;
+    font-family: Chewy;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+/* MODAL OPCIONES MENU */
+#ayudas_menu-superior{
+    width: 840px;
+}
+.ayudas-menu-sp #flex_info-ayudas-p{
+    display: flex;
+    align-items: center;
+    border: 2px solid var(--bordes_blue);
+    padding: 10px;
+    margin: 10px;
+}
+
+.ayudas-menu-sp img{
+    display: inline-block;
+    width: 40px;
+    margin-right: 20px;
+}
+
+.menu-lateral_ayudas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.menu-lateral_ayudas img{
+    width: 200px;
+}
+
+.menu-lateral_ayudas p{
+    font-size: 18px;
+    border: 2px solid var(--bordes_blue);
+    padding: 30px 10px;
+}
+
+.flex_empezar-ayudas{
+    margin: 20px 10px 20px 0px;
+    width: 95%;
+}
+
+.flex_empezar-ayudas img{
+    width: 390px;
+    border: 2px solid var(--bordes_blue);
+    border-radius: 15px;
+    margin: 0px 0px 20px 0px;
+}
