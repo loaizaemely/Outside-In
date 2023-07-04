@@ -1,0 +1,122 @@
+@import url(./styles.css);
+
+*::selection{
+    background-color: #49c459;
+}
+
+.contenedor_header{
+    border: 2px solid var(--bordes_green);
+}
+
+/* ESTILOS GENERALES -------------------------------------------------------- */
+.contenedor_axial{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contenedor_axial p{
+    font-size: 18px;
+}
+
+.contenido_bordes-green{
+    border: 2px solid var(--bordes_green);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 5px;
+    cursor: pointer;
+    text-align: end;
+}
+
+.contenido_bordes-green p{
+    padding: 10px;
+    text-align: center;
+}
+
+.contenido_bordes-green #titulo{
+    border-bottom: 2px solid var(--bordes_green);
+    text-align: center;
+    font-family: 'Kanit';
+}
+
+.p_bordes-green p{
+    border: 2px solid var(--bordes_green);
+    border-radius: 10px;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.img_axial{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.img_axial img{
+    width: 520px;
+    border: 2px solid var(--bordes_green);
+    border-radius: 10px;
+    background-color: #a9ffcd55;
+    padding: 10px 30px;
+}
+
+/* ESTILOS CONTENIDOS IZQUIERDA -------------------------------------------------------- */
+
+.contenido_Axial h2{
+    text-align: center;
+    font-family: 'Kanit';
+    margin-bottom: 20px;
+}
+
+/* ESTILOS DERECHA -------------------------------------------------------- */
+.info_axial{
+    margin-right: -180px;
+}
+
+.flex_axail-info{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* ESTILOS MODALES -------------------------------------------------------- */
+.modal{
+    border: 3px solid var(--bordes_green);
+}
+
+.modal::-webkit-scrollbar-thumb{
+    background-color: var(--bordes_green);
+}
+
+/* AXIAL */
+.flex_axial-modales{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+    margin-bottom: 30px;
+}
+
+.flex_axial-modales img{
+    width: 380px;
+    padding: 10px 30px;
+    border: 2px solid var(--bordes_green);
+    border-radius: 10px;
+    background-color: #a9ffcd55;
+}
+
+#fun_axial-img{
+    width: 330px;
+}
+
+.flex_axial-modales h2{
+    font-family: Chewy;
+    margin-left: 30px;
+}
+
+#ir_craneo{
+    border: 2px solid var(--bordes_green);
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}

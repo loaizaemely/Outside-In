@@ -10,7 +10,7 @@
 /* ESTILOS SECTION PARA ENIAR COMENTARIO ----------------------- */
 .flex_cmts{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     margin: 40px 20px 0px 20px;
 }
@@ -28,10 +28,6 @@
     background-color: #d3edf2a4;
     border-radius: 20px;
     border: 2px solid var(--bordes_blue);
-}
-
-.enviar_coment form{
-    margin: 20px 0px 20px 40px;
 }
 
 .enviar_coment button{

@@ -3,7 +3,7 @@
 /* ESTILOS GENERALES ------------------------------------------------------- */
 .contenedor_eqt-hm{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .cuadros_eqt-hm{
@@ -19,7 +19,7 @@
     border-radius: 15px;
     text-align: center;
     padding: 20px 5px;
-    margin: 15px 50px 0px 0px;
+    margin: 10px 0px 10px 0px;
     color: #000;
     cursor: pointer;
 }
@@ -40,8 +40,9 @@
     align-items: center;
     border: 2px solid var(--bordes_blue);
     border-radius: 15px;
-    margin: 10px 10px 0px 10px;
+    margin: 10px 0px 0px 0px;
     width: 50%;
+    overflow: scroll;
 }
 
 .info_eqt-hm p{

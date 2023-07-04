@@ -37,12 +37,13 @@
 }
 
 .mvt_contenedores{
-    margin-left: 80px;
+    margin-left: 90px;
 }
 
 /*VARIABLES ----------------------------------------*/
 :root{
     --bordes_blue: #00A6FF;
+    --bordes_green: #53D568;
 }
 
 /*MENÚ LATERAL ----------------------------------------*/
@@ -127,6 +128,7 @@
     font-family: Chewy;
     font-size: 28px;
     letter-spacing: 2px;
+    margin-left: 20px;
 }
 
 /* ICONOS */
@@ -190,7 +192,7 @@
 .modal{
     text-align: center;
     padding: 20px;
-    border: 2px solid var(--bordes_blue);
+    border: 3px solid var(--bordes_blue);
     border-radius: 20px;
     position: absolute;
     top: 50%;
@@ -199,18 +201,16 @@
 }
 
 .modal::backdrop{
-    background-color: #0000006e;
+    background-color: #000000aa;
 }
 
 .modal::-webkit-scrollbar{
     width: 7px;
-    
 }
 
 .modal::-webkit-scrollbar-thumb{
     background-color: var(--bordes_blue);
     border-radius: 45px;
-    padding-right: 20px;
 }
 
 .modal h2{
