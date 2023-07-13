@@ -1,0 +1,43 @@
+@import url(../styles.css);
+@import url(../Axial.css);
+
+.contenedor_craneo{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.contenedor_craneo a{
+    text-decoration: none;
+    color: #000;
+}
+
+.contenido_craneo h2{
+    text-align: center;
+    font-family: 'Kanit';
+    margin-bottom: 20px;
+}
+
+.contenido_craneo{
+    margin-left: 50px;
+    width: 30%;
+}
+
+.p_bordes-green p{
+    border: none;
+}
+
+/* ESTILOS CONTENIDOS IZQUIERDA -------------------------------------------------------- */
+
+#partes_axial-seleccionado{
+    border: 2px solid var(--bordes_green);
+}
+
+/* ESTILOS CONTENIDOS DERECHA -------------------------------------------------------- */
+.info_craneo{
+    margin-left: 90px;
+}
+
+.flex_info{
+    margin-top: -22px;
+}

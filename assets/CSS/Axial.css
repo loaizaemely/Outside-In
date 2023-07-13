@@ -31,12 +31,14 @@
 .contenido_bordes-green p{
     padding: 10px;
     text-align: center;
+    font-size: 18px;
 }
 
 .contenido_bordes-green #titulo{
     border-bottom: 2px solid var(--bordes_green);
     text-align: center;
     font-family: 'Kanit';
+    font-size: 18px;
 }
 
 .p_bordes-green p{
@@ -45,11 +47,12 @@
     margin: 20px 0px;
     padding: 10px 0px;
     text-align: center;
+    font-size: 20px;
 }
 
 .img_axial{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .img_axial img{
@@ -73,7 +76,7 @@
     margin-right: -180px;
 }
 
-.flex_axail-info{
+.flex_info{
     display: flex;
     justify-content: space-evenly;
 }
@@ -81,6 +84,10 @@
 /* ESTILOS MODALES -------------------------------------------------------- */
 .modal{
     border: 3px solid var(--bordes_green);
+}
+
+.modal p{
+    font-size: 21px;
 }
 
 .modal::-webkit-scrollbar-thumb{
@@ -92,19 +99,19 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center ;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .flex_axial-modales img{
     width: 380px;
-    padding: 10px 30px;
+    padding: 0px 20px;
     border: 2px solid var(--bordes_green);
     border-radius: 10px;
     background-color: #a9ffcd55;
 }
 
 #fun_axial-img{
-    width: 330px;
+    width: 320px;
 }
 
 .flex_axial-modales h2{
@@ -112,11 +119,13 @@
     margin-left: 30px;
 }
 
-#ir_craneo{
+/* BOTON ANATOMIA */
+.mover_final button{
     border: 2px solid var(--bordes_green);
     border-radius: 10px;
     background-color: #fff;
-    padding: 5px;
+    font-size: 18px;
+    padding: 7px;
     margin-top: 20px;
     cursor: pointer;
 }

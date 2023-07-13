@@ -39,9 +39,6 @@
 }
 
 .eqt_general-info a{
-    display: flex;
-    justify-content: end;
-    align-items: center;
     text-decoration: none;
 }
 
