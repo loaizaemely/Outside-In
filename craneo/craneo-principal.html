@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1..0">
     <title>CRANEO</title>
-    <link rel="stylesheet" href="../assets/CSS/craneo-css/craneo.css">
+    <link rel="stylesheet" href="../assets/CSS/craneo-css/craneo-principal.css">
     <link rel="icon" href="../assets/md/img/logito.png">
 </head>
 <body>
-    <aside>    <!-- MENÚ LATERAL -->
+    <aside><!-- MENÚ LATERAL -->
         <nav class="nav_menu">
             <ul>
                 <li><a href="#" class="logo_menu"><img src="../assets/md/img/logo.png" alt="ERROR"><span class="nav-item">OUTSIDE <br> IN</span></a></li>
@@ -23,7 +23,7 @@
         </nav>
     </aside>
     <header class="contenedor_header"><!-- MENÚ SUPERIOR -->
-        <div class="titulo_header"><h2>ESQUELETO AXIAL</h2></div>
+        <div class="titulo_header"><h2>ESQUELETO HUMANO</h2></div>
         <div class="icons_header">
             <a href="../op_menu/ayudas.html"><img src="../assets/md/icons/ayuda.svg" alt="AYUDAS" title="¿CÓMO USO ESTA PÁGINA?"></a>
             <a href="#"><img src="../assets/md/icons/notas.svg" alt="NOTAS" title="TUS NOTAS"></a>
@@ -35,41 +35,28 @@
         </div>
     </header>
 
-    <main class="contenedor_craneo mvt_contenedores">
-        <section class="contenido_craneo p_bordes-green">
-            <h2>Partes del esqueleto<br> axial</h2>
-            <a href="#"><p id="partes_axial-seleccionado">Cráneo</p></a>
-            <a href="#"><p>Huesillos del oído</p></a>
-            <p>Hioides</p>
-            <p>Caja toráxica</p>
-            <p>Columna vertebral</p>
+    <main class="contenedor_craneo-principal mvt_contenedores">
+        <section class="cuadros_craneo-prin">
+            <a href="./craneo-principal.html">
+                <div class="cajas_craneo-prin caja_selecionada-craneo-prin"><h3>CRÁNEO</h3><p>Consta de 22 huesos planos conectados por suturas...</p></div>
+            </a>
+            <a href="./">
+                <div class="cajas_craneo-prin"><h3>FUNCIONES</h3><p>Forma el esqueleto de la cabeza, da soporte las estructuras faciales...</p></div>
+            </a>
+            <a href="#">
+                <div class="cajas_craneo-prin"><h3>SUTURAS</h3><p>Tiene un total de 33 suturas...</p><img src="../assets/md/icons/modales.svg" alt="IR"></div>
+            </a>
+            <a href="./">
+                <div class="cajas_eqt-hm"><h3>ESTRUCTURA CRANEAL</h3><p>Se le atribuyen dos partes o caras que son...</p><img src="../assets/md/icons/modales.svg" alt="IR"></div>
+            </a>
         </section>
-        <section class="info_craneo">
-            <div class="img_axial">
-                <img src="../assets/md/img/imgs-axial/img-craneo.png" alt="CRANEO">
+
+        <section class="info_craneo-prin">
+            <div class="craneo_prin">
+                <img src="../assets/md/img/imgs-axial/craneo-principal.png" alt="CRANEO">
+                <p>El cráneo humano es la estructura que rodea y recubre el encéfalo (Cerebro), formando únicamente una parte de lo que consideramos nuestra calavera. <br><br>Consta de 22 huesos planos (exceptuando los pequeños huesos del oído medio), generalmente delgados que contienen tejido óseo esponjoso entre sus dos capas paralelas, en su mayoría están conectados por medio de suturas craneales, que al tiempo que vamos creciendo terminan por osificarse. <br><br>El cráneo se divide en el neurocráneo y en el viscerocráneo.</p> 
             </div>
-            <div class="craneo contenido_bordes-green">
-                <a href="./craneo-principal.html">
-                    <p id="titulo">CRÁNEO</p>
-                    <p>Consta de 22 huesos, están conectados por articulaciones osificadas, llamadas suturas. <br>Este se divide en el neurocráneo y en el viscerocráneo. </p>
-                    <img src="../assets/md/icons/modales.svg" alt="IR">
-                </a>
-            </div>
-            <div class="flex_info">
-                <div class="contenido_bordes-green">
-                    <p id="titulo">NEUROCRÁNEO</p>
-                    <p>Se compone de 6 huesos y se divide en 2 partes principales...</p>
-                    <img src="../assets/md/icons/modales.svg" alt="IR">
-                </div>
-                <div class="contenido_bordes-green">
-                    <p id="titulo">VISEROCRÁNEO</p>
-                    <p>Se compone de 16 huesos y se divide en 2 partes principales...</p>
-                    <img src="../assets/md/icons/modales.svg" alt="IR">
-                </div>
-            </div>
-        </section>
+        </section>    
     </main>
-    <script src="../assets/JS/main.js"></script>
-    
 </body>
 </html>

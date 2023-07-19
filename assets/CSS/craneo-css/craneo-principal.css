@@ -1,0 +1,6 @@
+@import url(../craneo-css/craneo.css);
+/* ESTILOS GENERALES -------------- */
+.contenedor_craneo-principal{
+    display: flex;
+    justify-content: space-evenly;
+}

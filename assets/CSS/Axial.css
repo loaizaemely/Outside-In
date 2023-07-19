@@ -11,7 +11,7 @@
 /* ESTILOS GENERALES -------------------------------------------------------- */
 .contenedor_axial{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
@@ -22,7 +22,7 @@
 .contenido_bordes-green{
     border: 2px solid var(--bordes_green);
     border-radius: 10px;
-    margin: 20px;
+    margin: 10px;
     padding: 5px;
     cursor: pointer;
     text-align: end;
@@ -64,6 +64,9 @@
 }
 
 /* ESTILOS CONTENIDOS IZQUIERDA -------------------------------------------------------- */
+.contenido_Axial{
+    margin: 0px 20px;
+}
 
 .contenido_Axial h2{
     text-align: center;
@@ -73,7 +76,7 @@
 
 /* ESTILOS DERECHA -------------------------------------------------------- */
 .info_axial{
-    margin-right: -180px;
+    margin-left: 100px;
 }
 
 .flex_info{

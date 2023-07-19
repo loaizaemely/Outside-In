@@ -1,0 +1,49 @@
+@import url(../styles.css);
+
+.contenedor_refe{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contenedor_refe h2{
+    font-family: Chewy;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+
+.contenedor_refe a{
+    display: block;
+    margin: 10px;
+    color: #000;
+}
+
+/* ESTILOS CONTENEDORES ENLACES */
+.enlaces_refe{
+    border: 3px solid var(--bordes_blue);
+    border-radius: 20px;
+    max-height: 82vh;
+    overflow: auto;
+}
+
+.enlaces_refe::-webkit-scrollbar{
+    width: 7px;
+    
+}
+
+.enlaces_refe::-webkit-scrollbar-thumb{
+    background-color: var(--bordes_blue);
+    border-radius: 25px;
+    padding-right: 20px;
+}
+
+/* ESTILOS CAJA IZQUIERDA */
+.refe_izquierda{
+    width: 50%;
+    margin: 0px 20px 0px 10px;
+}
+
+/* ESTILOS CAJA DERECHA */
+.refe_derecha{
+    width: 50%;
+    margin-right: 10px;
+}
