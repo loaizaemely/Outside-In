@@ -52,8 +52,7 @@
 }
 
 /* ESTILOS FOOTER  ------------------------------------------------- */
-
-.creadoras_footer button{
+#creadoras_volver{
     background-color: #D2EDFF;
     border-radius: 40px;
     border: 3px solid var(--bordes_blue);
