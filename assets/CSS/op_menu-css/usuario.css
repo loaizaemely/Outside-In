@@ -23,19 +23,22 @@
     text-align: center;
 }
 
+.datos_usuario button{
+    font-family: Chewy;
+    font-size: 17px;
+    color: #000;
+    background-color: #92F2D0;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 30px;
+    margin: 20px;
+    cursor: pointer;
+}
+
 #dato_perfil{
     border: 3px solid var(--bordes_blue);
     border-radius: 13px;
     width: 400px;
     padding: 10px;
     margin: 20px;
-}
-
-#cerrar_perfil{
-    text-decoration: none;
-    font-family: Chewy;
-    color: #000;
-    background-color: #92F2D0;
-    border-radius: 10px;
-    padding: 10px 30px;
 }
